@@ -29,10 +29,10 @@
         android:id="@+id/tvTemperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="27°"
         android:textColor="@color/white"
-        android:textSize="120sp"
-        android:layout_gravity="center_horizontal" />
+        android:textSize="120sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvForecast"
